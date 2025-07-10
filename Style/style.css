@@ -65,7 +65,7 @@ nav h1 {
     padding-top: 37px;
 }
 main{
-    background-color: rgba(78, 71, 255, 50%);
+    background-color: rgba(78, 71, 255, 5%);
 }
 
 main section{
@@ -103,7 +103,7 @@ main section{
     background-color: rgba(78, 71, 255, 10%);
     border-radius: 24px;
     padding: 50px 142px;
-    /* margin-bottom: 50px; */
+    margin-bottom: 90px;
 }
 .users-container h2 {
     text-align: center;
@@ -159,3 +159,30 @@ main section{
 }
 
 /* template-studio-vertex-container design end */
+/* get-in-touch-container start  */
+.get-in-touch-container{
+    display: flex;
+    gap: 115px;
+}
+.get-in-touch-container div{
+    width: 50%;
+}
+.get-in-touch-container h2{
+    font-size: 97px;
+    font-weight: bold;
+}
+.get-in-touch-container input, .get-in-touch-container textarea{
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 19px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.get-in-touch-container label{
+    font-weight: bold;
+    
+}
