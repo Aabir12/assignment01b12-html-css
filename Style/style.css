@@ -62,3 +62,30 @@ nav h1 {
     padding-top: 37px;
 }
 
+main section{
+    width: 86%;
+    margin: 116px auto 0;
+
+}
+
+/* action-field-container start  */
+.action-field-container {
+    display: flex;
+    justify-content: space-between;
+}
+.action-field-content{
+    margin: 62px 0;
+}
+.action-field-container div h3 {
+    font-size: 42px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.action-field-container div p {
+    font-size: 16px;
+    color: rgba(37, 36, 50, 50%);
+    padding-bottom: 20px;
+}
+.action-field-container img {
+    border-radius: 48px;
+}
