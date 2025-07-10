@@ -179,10 +179,35 @@ main section{
     padding-left: 20px;
     margin-top: 10px;
     margin-bottom: 19px;
-    border: 1px solid gray;
+    border: 1px solid rgba(0, 0, 0, 20%);
     border-radius: 10px;
 }
 .get-in-touch-container label{
     font-weight: bold;
     
+}
+
+/* footer section design  */
+footer div{
+    width: 30%;
+    margin: 104px auto;
+    text-align: center;
+}
+footer div h1{
+    font-size: 100px;
+    font-weight: bolder;
+}
+footer div p{
+    font-size: 15px;
+    margin-bottom: 20px;
+     color: rgba(0, 0, 0, 50%);
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+footer ul a {
+    text-decoration: none;
+     color: rgba(0, 0, 0, 50%);
 }
