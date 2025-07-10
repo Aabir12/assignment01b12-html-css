@@ -115,6 +115,7 @@ main section{
     text-align: center;
     font-size: 38px;
     font-weight: bold;
+    margin-bottom: 40px;
 }
 .users-info{
     display: flex;
@@ -160,24 +161,24 @@ main section{
     border-radius: 16px;
     padding: 24px;
 }
-.users-info{
+.users-infos{
     font-family: "Inter", sans-serif;
     display: flex;
     gap: 15px;
     justify-content: start;
 }
-.users-info img{
+.users-infos img{
     border-radius: 100%;
     width: 41px;
     height: 41px;
     border: 1px solid rgba(0, 0, 0, 20%);
 }
-.users-info h6{
+.users-infos h6{
     font-size: 16px;
     color: rgba(0, 0, 0, 50%);
     padding-bottom: 6px;
 }
-.users-info p{
+.users-infos p{
     font-size: 14px;
     color: rgba(0, 0, 0, 40%);;
 }
