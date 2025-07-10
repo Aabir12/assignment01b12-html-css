@@ -64,10 +64,15 @@ nav h1 {
     justify-content: center;
     padding-top: 37px;
 }
+main{
+    background-color: rgba(78, 71, 255, 50%);
+}
 
 main section{
     width: 86%;
-    margin: 116px auto 0;
+    margin: 0 auto 0;
+    padding-top: 116px;
+    padding-bottom: 116px;
 
 }
 
@@ -98,6 +103,7 @@ main section{
     background-color: rgba(78, 71, 255, 10%);
     border-radius: 24px;
     padding: 50px 142px;
+    /* margin-bottom: 50px; */
 }
 .users-container h2 {
     text-align: center;
@@ -119,3 +125,37 @@ main section{
     font-size: 20;
     color: rgba(0, 0, 0, 50%);
 }
+
+/* users comment styles start  */
+
+/* end  */
+
+/* template-studio-vertex-container design start */
+.template-studio-vertex-container{
+    padding: 71px 150px;
+    border-radius: 14px;
+    background-color: #ffffff;
+}
+.template-studio-vertex-container h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.template-studio-vertex-container p{
+    text-align: center;
+    font-size: 20;
+    color: rgba(0, 0, 0, 50%);
+    margin-bottom: 20px;
+}
+
+.template-studio-vertex-container div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.template-studio-vertex-container img{
+    border-radius: 48px;
+}
+
+/* template-studio-vertex-container design end */
